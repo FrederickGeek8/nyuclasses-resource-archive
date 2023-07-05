@@ -7,6 +7,15 @@ on NYU Classes (newclasses.nyu.edu).
 
 ![A screenshot of the Resources tab on a class](screenshots/resource_screenshot.png)
 
+### Grabbing the code
+
+You can get a copy of this code by
+
+```bash
+git clone https://github.com/FrederickGeek8/nyuclasses-resource-scraper.git;
+cd nyuclasses-resource-scraper
+```
+
 ### Install Dependencies:
 
 ```bash
@@ -69,3 +78,7 @@ It will produce at `outdir` a structure like the following: the contents of the
 ![A screenshot of the folder structure produced by the script. Class name and underneath the contents.](screenshots/result_screenshot.png)
 
 This script will skip downloading files that already exist and (1) are newer on the local machine and (2) have the same file size as the remote. In order to redownload files by force, you must delete the files from your filesystem first.
+
+### Notes
+
+1. This was tested on Python 3.9.16. It should hopefully work for Python >=3.9
