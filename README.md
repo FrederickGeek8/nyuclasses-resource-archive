@@ -47,7 +47,7 @@ folder. It should look like
 
 ![Javascript command result that we copy to the clipboard to save to a file.](screenshots/command_result.png)
 
-spacing doesn't matter. You can remove the `"key": "value",` pair for classes you don't want to scrape. By default we scrape all of the classes listed on that webpage.
+spacing doesn't matter. You can remove the `"key": "value",` pair from that file for classes you don't want to scrape. By default we scrape all of the classes listed on that webpage.
 
 ### Usage:
 
@@ -67,3 +67,5 @@ with
 It will produce at `outdir` a structure like the following: the contents of the
 `Resources` tab for each class in the JSON file:
 ![A screenshot of the folder structure produced by the script. Class name and underneath the contents.](screenshots/result_screenshot.png)
+
+This script will skip downloading files that already exist and (1) are newer on the local machine and (2) have the same file size as the remote. In order to redownload files by force, you must delete the files from your filesystem first.
