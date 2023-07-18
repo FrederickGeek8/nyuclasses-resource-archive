@@ -7,6 +7,8 @@ on NYU Classes (newclasses.nyu.edu).
 
 ![A screenshot of the Resources tab on a class](screenshots/resource_screenshot.png)
 
+**New: Download the a web archive of NYU Classes using this tool**: https://github.com/FrederickGeek8/nyuclasses-web-archive
+
 ### Grabbing the code
 
 You can get a copy of this code by
