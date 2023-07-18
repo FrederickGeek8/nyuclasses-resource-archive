@@ -1,6 +1,6 @@
 # NYU Classes `Resources` Scraper
 
-newclasses.nyu.edu is going away soon and with it all the course material there will die. This script allows you to download some of the course materials from the website.
+newclasses.nyu.edu is going away August 15th and with it all the course material there will die. This script allows you to download some of the course materials from the website.
 
 This repo contains a script to download all of the Resources for classes listed
 on NYU Classes (newclasses.nyu.edu).
