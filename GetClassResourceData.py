@@ -12,7 +12,7 @@ parser = argparse.ArgumentParser(
     prog="NYU Class Resource Scraper",
     description="Tool for scraping NYU Classes data over WebDAV",
 )
-parser.add_argument("-j", "--json", type=str, default="classes.json")
+parser.add_argument("-j", "--json", type=str, default="classes.txt")
 parser.add_argument("-u", "--user", type=str, default=None)
 parser.add_argument("-p", "--pass", type=str, default=None)
 parser.add_argument("-o", "--outdir", type=str, default=None)
@@ -28,9 +28,9 @@ JSON.stringify(Object.fromEntries(Array.from(document.querySelectorAll("[headers
 )
 
 
-input("Put the result in a file called classes.txt in this directory and press enter.")
+input(f"Put the result in a file called {args['json']} in this directory and press enter.")
 
-data_path = Path(args["json"])
+data_path = Path(args["json"])t
 
 if not data_path.exists():
     raise FileNotFoundError(
