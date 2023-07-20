@@ -33,7 +33,7 @@ your web browser's developer console.
 ![The Membership tab on the home page of newclasses.nyu.edu](screenshots/membership_screenshot.png)
 
 You can get to the console by Right-Clicking on the webpage, then clicking
-`Inspect`, then clicking the Console tab.
+`Inspect`, then clicking the Console tab, paste the following code:
 
 ```javascript
 JSON.stringify(
@@ -65,14 +65,14 @@ spacing doesn't matter. You can remove the `"key": "value",` pair from that file
 You can run the following:
 
 ```bash
-python GetClassResourceData.py --user user --pass mypassword123 --json classes.json --outdir /Backup/NYUClasses
+python GetClassResourceData.py --user user --pass mypassword123 --json classes.txt --outdir /Backup/NYUClasses
 ```
 
 with
 
 - `user`: Your NYU username
 - `pass`: Your NYU password
-- `json`: The path to the JSON with the classes you want to save
+- `json`: The path to the JSON containing file with the classes you want to save, default: `classes.txt`
 - `outdir`: The path to where you want to save the class folders
 
 It will produce at `outdir` a structure like the following: the contents of the
