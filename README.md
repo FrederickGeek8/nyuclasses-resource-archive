@@ -46,10 +46,10 @@ JSON.stringify(
 );
 ```
 
-Copy the result and save it to a text file. We recommend `classes.json` in this
+Copy the result and save it to a text file. We recommend `classes.txt` in this
 folder. It should look like
 
-```json
+```txt
 {
   "Class Name 1": "https://newclasses.nyu.edu/portal/site/numbers",
   "Class Name 2": "https://newclasses.nyu.edu/portal/site/differentnumbers"
