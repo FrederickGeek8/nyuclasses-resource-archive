@@ -28,7 +28,7 @@ JSON.stringify(Object.fromEntries(Array.from(document.querySelectorAll("[headers
 )
 
 
-input("Put the result in a file called classes.txt in this directory and press enter.")
+input("Put the result in a file called classes.json in this directory and press enter.")
 
 data_path = Path(args["json"])
 
